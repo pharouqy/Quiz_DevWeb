@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style/style.css" />
     <title>Quiz Level DevWeb</title>
   </head>
@@ -10,297 +16,333 @@
     <h1>Quiz D'évaluation de niveau en developpement web</h1>
     <main>
       <form action="">
-        <section>
-          <h2>
-            1- Quel langage de programmation est principalement utilisé pour
-            créer la structure et le contenu d'une page web ?
-          </h2>
-          <div>
-            <label for="HTMLQ1">HTML 🌐</label>
-            <input type="radio" name="Q1" id="HTMLQ1" />
-          </div>
-          <div>
-            <label for="CSSQ1">CSS 🎨</label>
-            <input type="radio" name="Q1" id="CSSQ1" />
-          </div>
-          <div>
-            <label for="JAVASCRIPTQ1">JAVASCRIPT 🚀</label>
-            <input type="radio" name="Q1" id="JAVASCRIPTQ1" />
-          </div>
-        </section>
-        <section>
-          <h2>
-            2- Quel langage de programmation est principalement utilisé pour
-            styliser une page web ?
-          </h2>
-          <div>
-            <label for="HTMLQ2">HTML 🌐</label>
-            <input type="radio" name="Q2" id="HTMLQ2" />
-          </div>
-          <div>
-            <label for="CSSQ2">CSS 🎨</label>
-            <input type="radio" name="Q2" id="CSSQ2" />
-          </div>
-          <div>
-            <label for="JAVASCRIPTQ2">JAVASCRIPT 🚀</label>
-            <input type="radio" name="Q2" id="JAVASCRIPTQ2" />
-          </div>
-        </section>
-        <section>
-          <h2>
-            3- Quel langage de programmation est principalement utilisé pour
-            ajouter des fonctionnalités interactives à une page web ?
-          </h2>
-          <div>
-            <label for="HTMLQ3">HTML 🌐</label>
-            <input type="radio" name="Q3" id="HTMLQ3" />
-          </div>
-          <div>
-            <label for="CSSQ3">CSS 🎨</label>
-            <input type="radio" name="Q3" id="CSSQ3" />
-          </div>
-          <div>
-            <label for="JAVASCRIPTQ3">JAVASCRIPT 🚀</label>
-            <input type="radio" name="Q3" id="JAVASCRIPTQ3" />
-          </div>
-        </section>
-        <section>
-          <h2>
-            4- Quelle balise HTML est utilisée pour créer une liste non ordonnée
-            ?
-          </h2>
-          <div>
-            <label for="Ul">Ul 📋</label>
-            <input type="radio" name="Q4" id="Ul" />
-          </div>
-          <div>
-            <label for="Ol">Ol 📋</label>
-            <input type="radio" name="Q4" id="Ol" />
-          </div>
-          <div>
-            <label for="Li">Li 📋</label>
-            <input type="radio" name="Q4" id="Li" />
-          </div>
-        </section>
-        <section>
-          <h2>
-            5- Quel sélecteur CSS sélectionne tous les éléments d'une classe
-            spécifique ?
-          </h2>
-          <div>
-            <label for="classe">classe 🖌️</label>
-            <input type="radio" name="Q5" id="classe" />
-          </div>
-          <div>
-            <label for=".ma-classe">.ma-classe 🖌️</label>
-            <input type="radio" name="Q5" id=".ma-classe" />
-          </div>
-          <div>
-            <label for="ma-classe">ma-classe 🖌️</label>
-            <input type="radio" name="Q5" id="ma-classe" />
-          </div>
-        </section>
-        <section>
-          <h2>
-            6- Quel élément HTML est utilisé pour créer un lien hypertexte ?
-          </h2>
-          <div>
-            <label for="HTML">link 🔗 </label>
-            <input type="radio" name="Q6" id="HTML" />
-          </div>
-          <div>
-            <label for="CSS">href 🔗</label>
-            <input type="radio" name="Q6" id="CSS" />
-          </div>
-          <div>
-            <label for="a">a 🔗</label>
-            <input type="radio" name="Q6" id="a" />
-          </div>
-        </section>
-        <section>
-          <h2>7- Comment inclure du JavaScript dans une page HTML ?</h2>
-          <div>
-            <label for="js">En utilisant la balise <code>js</code> 🚀</label>
-            <input type="radio" name="Q7" id="js" />
-          </div>
-          <div>
-            <label for="script"
-              >En utilisant la balise <code>script</code> 🚀</label
-            >
-            <input type="radio" name="Q7" id="script" />
-          </div>
-          <div>
-            <label for="javascriptQ7"
-              >En utilisant la balise <code>javascript</code> 🚀</label
-            >
-            <input type="radio" name="Q7" id="javascriptQ7" />
-          </div>
-        </section>
-        <section>
-          <h2>
-            8- Quelle fonction JavaScript est utilisée pour afficher une boîte
-            de dialogue d'alerte ?
-          </h2>
-          <div>
-            <label for="popup">popup() 🚨</label>
-            <input type="radio" name="Q8" id="popup" />
-          </div>
-          <div>
-            <label for="messageBox">messageBox() 🚨</label>
-            <input type="radio" name="Q8" id="messageBox" />
-          </div>
-          <div>
-            <label for="alert">alert() 🚨</label>
-            <input type="radio" name="Q8" id="alert" />
-          </div>
-        </section>
-        <section>
-          <h2>
-            9- Quel outil est couramment utilisé pour versionner le code source
-            dans le développement web ?
-          </h2>
-          <div>
-            <label for="Git">Git 📦</label>
-            <input type="radio" name="Q9" id="Git" />
-          </div>
-          <div>
-            <label for="Photoshop">Photoshop 🎨</label>
-            <input type="radio" name="Q9" id="Photoshop" />
-          </div>
-          <div>
-            <label for="Excel">Excel 📊</label>
-            <input type="radio" name="Q9" id="Excel" />
-          </div>
-        </section>
-        <section>
-          <h2>
-            10- Quel acronyme représente le modèle architectural couramment
-            utilisé pour concevoir des applications web interactives ?
-          </h2>
-          <div>
-            <label for="MVC">MVC 🏗️</label>
-            <input type="radio" name="Q10" id="MVC" />
-          </div>
-          <div>
-            <label for="CEO">CEO 📈</label>
-            <input type="radio" name="Q10" id="CEO" />
-          </div>
-          <div>
-            <label for="UFO">UFO 🛸</label>
-            <input type="radio" name="Q10" id="UFO" />
-          </div>
-        </section>
-        <section>
-          <h2>
-            11- Quelle extension de fichier est généralement associée aux
-            fichiers HTML ?
-          </h2>
-          <div>
-            <label for=".html">.html 📄</label>
-            <input type="radio" name="Q11" id=".html" />
-          </div>
-          <div>
-            <label for=".css ">.css 📄 </label>
-            <input type="radio" name="Q11" id=".css " />
-          </div>
-          <div>
-            <label for=".js">.js 📄</label>
-            <input type="radio" name="Q11" id=".js" />
-          </div>
-        </section>
-        <section>
-          <h2>
-            12- Quel langage est principalement utilisé pour interagir avec une
-            base de données dans le développement web côté serveur ?
-          </h2>
-          <div>
-            <label for="PHP">PHP 🖥️</label>
-            <input type="radio" name="Q12" id="PHP" />
-          </div>
-          <div>
-            <label for="HTML">HTML 🌐</label>
-            <input type="radio" name="Q12" id="HTML" />
-          </div>
-          <div>
-            <label for="CSS">CSS 🎨</label>
-            <input type="radio" name="Q12" id="CSS" />
-          </div>
-        </section>
-        <section>
-          <h2>
-            13- Quel attribut HTML est utilisé pour spécifier le lien vers une
-            feuille de style CSS externe ?
-          </h2>
-          <div>
-            <label for="src">src 🌐</label>
-            <input type="radio" name="Q13" id="src" />
-          </div>
-          <div>
-            <label for="link">link 🌐</label>
-            <input type="radio" name="Q13" id="link" />
-          </div>
-          <div>
-            <label for="href">href 🌐</label>
-            <input type="radio" name="Q13" id="href" />
-          </div>
-        </section>
-        <section>
-          <h2>
-            14- Quel terme décrit le processus de rendre une page web compatible
-            avec différents appareils et tailles d'écran ?
-          </h2>
-          <div>
-            <label for="Responsivité">Responsivité 📱</label>
-            <input type="radio" name="Q14" id="Responsivité" />
-          </div>
-          <div>
-            <label for="Interaction">Interaction 🎮</label>
-            <input type="radio" name="Q14" id="Interaction" />
-          </div>
-          <div>
-            <label for="Réactivité">Réactivité 🔄</label>
-            <input type="radio" name="Q14" id="Réactivité" />
-          </div>
-        </section>
-        <section>
-          <h2>
-            15- Quelle balise HTML est utilisée pour regrouper et structurer le
-            contenu d'une page web ?
-          </h2>
-          <div>
-            <label for="div">div 🏗️</label>
-            <input type="radio" name="Q15" id="div" />
-          </div>
-          <div>
-            <label for="span">span 📝</label>
-            <input type="radio" name="Q15" id="span" />
-          </div>
-          <div>
-            <label for="section">section 🏗️</label>
-            <input type="radio" name="Q15" id="section" />
-          </div>
-        </section>
-        <section>
-          <h2>
-            16- Quel langage de programmation est souvent utilisé pour créer des
-            animations et des interactions avancées dans le navigateur ?
-          </h2>
-          <div>
-            <label for="Python">Python 🐍</label>
-            <input type="radio" name="Q16" id="Python" />
-          </div>
-          <div>
-            <label for="Java">Java ☕</label>
-            <input type="radio" name="Q16" id="Java" />
-          </div>
-          <div>
-            <label for="JavaScriptQ16">JavaScript 🚀</label>
-            <input type="radio" name="Q16" id="JavaScriptQ16" />
-          </div>
-        </section>
-        <input type="submit" value="valider" />
+        <div>
+          <section>
+            <h2>
+              1- Quel langage de programmation est principalement utilisé pour
+              créer la structure et le contenu d'une page web ?
+            </h2>
+            <div>
+              <div>
+                <label for="HTMLQ1">HTML 🌐</label>
+                <input type="radio" name="Q1" id="HTMLQ1" />
+              </div>
+              <div>
+                <label for="CSSQ1">CSS 🎨</label>
+                <input type="radio" name="Q1" id="CSSQ1" />
+              </div>
+              <div>
+                <label for="JAVASCRIPTQ1">JAVASCRIPT 🚀</label>
+                <input type="radio" name="Q1" id="JAVASCRIPTQ1" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              2- Quel langage de programmation est principalement utilisé pour
+              styliser une page web ?
+            </h2>
+            <div>
+              <div>
+                <label for="HTMLQ2">HTML 🌐</label>
+                <input type="radio" name="Q2" id="HTMLQ2" />
+              </div>
+              <div>
+                <label for="CSSQ2">CSS 🎨</label>
+                <input type="radio" name="Q2" id="CSSQ2" />
+              </div>
+              <div>
+                <label for="JAVASCRIPTQ2">JAVASCRIPT 🚀</label>
+                <input type="radio" name="Q2" id="JAVASCRIPTQ2" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              3- Quel langage de programmation est principalement utilisé pour
+              ajouter des fonctionnalités interactives à une page web ?
+            </h2>
+            <div>
+              <div>
+                <label for="HTMLQ3">HTML 🌐</label>
+                <input type="radio" name="Q3" id="HTMLQ3" />
+              </div>
+              <div>
+                <label for="CSSQ3">CSS 🎨</label>
+                <input type="radio" name="Q3" id="CSSQ3" />
+              </div>
+              <div>
+                <label for="JAVASCRIPTQ3">JAVASCRIPT 🚀</label>
+                <input type="radio" name="Q3" id="JAVASCRIPTQ3" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              4- Quelle balise HTML est utilisée pour créer une liste non
+              ordonnée ?
+            </h2>
+            <div>
+              <div>
+                <label for="Ul">Ul 📋</label>
+                <input type="radio" name="Q4" id="Ul" />
+              </div>
+              <div>
+                <label for="Ol">Ol 📋</label>
+                <input type="radio" name="Q4" id="Ol" />
+              </div>
+              <div>
+                <label for="Li">Li 📋</label>
+                <input type="radio" name="Q4" id="Li" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              5- Quel sélecteur CSS sélectionne tous les éléments d'une classe
+              spécifique ?
+            </h2>
+            <div>
+              <div>
+                <label for="classe">classe 🖌️</label>
+                <input type="radio" name="Q5" id="classe" />
+              </div>
+              <div>
+                <label for=".ma-classe">.ma-classe 🖌️</label>
+                <input type="radio" name="Q5" id=".ma-classe" />
+              </div>
+              <div>
+                <label for="ma-classe">ma-classe 🖌️</label>
+                <input type="radio" name="Q5" id="ma-classe" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              6- Quel élément HTML est utilisé pour créer un lien hypertexte ?
+            </h2>
+            <div>
+              <div>
+                <label for="HTML">link 🔗 </label>
+                <input type="radio" name="Q6" id="HTML" />
+              </div>
+              <div>
+                <label for="CSS">href 🔗</label>
+                <input type="radio" name="Q6" id="CSS" />
+              </div>
+              <div>
+                <label for="a">a 🔗</label>
+                <input type="radio" name="Q6" id="a" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>7- Comment inclure du JavaScript dans une page HTML ?</h2>
+            <div>
+              <div>
+                <label for="js"
+                  >En utilisant la balise <code>js</code> 🚀</label
+                >
+                <input type="radio" name="Q7" id="js" />
+              </div>
+              <div>
+                <label for="script"
+                  >En utilisant la balise <code>script</code> 🚀</label
+                >
+                <input type="radio" name="Q7" id="script" />
+              </div>
+              <div>
+                <label for="javascriptQ7"
+                  >En utilisant la balise <code>javascript</code> 🚀</label
+                >
+                <input type="radio" name="Q7" id="javascriptQ7" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              8- Quelle fonction JavaScript est utilisée pour afficher une boîte
+              de dialogue d'alerte ?
+            </h2>
+            <div>
+              <div>
+                <label for="popup">popup() 🚨</label>
+                <input type="radio" name="Q8" id="popup" />
+              </div>
+              <div>
+                <label for="messageBox">messageBox() 🚨</label>
+                <input type="radio" name="Q8" id="messageBox" />
+              </div>
+              <div>
+                <label for="alert">alert() 🚨</label>
+                <input type="radio" name="Q8" id="alert" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              9- Quel outil est couramment utilisé pour versionner le code
+              source dans le développement web ?
+            </h2>
+            <div>
+              <div>
+                <label for="Git">Git 📦</label>
+                <input type="radio" name="Q9" id="Git" />
+              </div>
+              <div>
+                <label for="Photoshop">Photoshop 🎨</label>
+                <input type="radio" name="Q9" id="Photoshop" />
+              </div>
+              <div>
+                <label for="Excel">Excel 📊</label>
+                <input type="radio" name="Q9" id="Excel" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              10- Quel acronyme représente le modèle architectural couramment
+              utilisé pour concevoir des applications web interactives ?
+            </h2>
+            <div>
+              <div>
+                <label for="MVC">MVC 🏗️</label>
+                <input type="radio" name="Q10" id="MVC" />
+              </div>
+              <div>
+                <label for="CEO">CEO 📈</label>
+                <input type="radio" name="Q10" id="CEO" />
+              </div>
+              <div>
+                <label for="UFO">UFO 🛸</label>
+                <input type="radio" name="Q10" id="UFO" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              11- Quelle extension de fichier est généralement associée aux
+              fichiers HTML ?
+            </h2>
+            <div>
+              <div>
+                <label for=".html">.html 📄</label>
+                <input type="radio" name="Q11" id=".html" />
+              </div>
+              <div>
+                <label for=".css ">.css 📄 </label>
+                <input type="radio" name="Q11" id=".css " />
+              </div>
+              <div>
+                <label for=".js">.js 📄</label>
+                <input type="radio" name="Q11" id=".js" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              12- Quel langage est principalement utilisé pour interagir avec
+              une base de données dans le développement web côté serveur ?
+            </h2>
+            <div>
+              <div>
+                <label for="PHP">PHP 🖥️</label>
+                <input type="radio" name="Q12" id="PHP" />
+              </div>
+              <div>
+                <label for="HTML">HTML 🌐</label>
+                <input type="radio" name="Q12" id="HTML" />
+              </div>
+              <div>
+                <label for="CSS">CSS 🎨</label>
+                <input type="radio" name="Q12" id="CSS" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              13- Quel attribut HTML est utilisé pour spécifier le lien vers une
+              feuille de style CSS externe ?
+            </h2>
+            <div>
+              <div>
+                <label for="src">src 🌐</label>
+                <input type="radio" name="Q13" id="src" />
+              </div>
+              <div>
+                <label for="link">link 🌐</label>
+                <input type="radio" name="Q13" id="link" />
+              </div>
+              <div>
+                <label for="href">href 🌐</label>
+                <input type="radio" name="Q13" id="href" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              14- Quel terme décrit le processus de rendre une page web
+              compatible avec différents appareils et tailles d'écran ?
+            </h2>
+            <div>
+              <div>
+                <label for="Responsivité">Responsivité 📱</label>
+                <input type="radio" name="Q14" id="Responsivité" />
+              </div>
+              <div>
+                <label for="Interaction">Interaction 🎮</label>
+                <input type="radio" name="Q14" id="Interaction" />
+              </div>
+              <div>
+                <label for="Réactivité">Réactivité 🔄</label>
+                <input type="radio" name="Q14" id="Réactivité" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              15- Quelle balise HTML est utilisée pour regrouper et structurer
+              le contenu d'une page web ?
+            </h2>
+            <div>
+              <div>
+                <label for="div">div 🏗️</label>
+                <input type="radio" name="Q15" id="div" />
+              </div>
+              <div>
+                <label for="span">span 📝</label>
+                <input type="radio" name="Q15" id="span" />
+              </div>
+              <div>
+                <label for="section">section 🏗️</label>
+                <input type="radio" name="Q15" id="section" />
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              16- Quel langage de programmation est souvent utilisé pour créer
+              des animations et des interactions avancées dans le navigateur ?
+            </h2>
+            <div>
+              <div>
+                <label for="Python">Python 🐍</label>
+                <input type="radio" name="Q16" id="Python" />
+              </div>
+              <div>
+                <label for="Java">Java ☕</label>
+                <input type="radio" name="Q16" id="Java" />
+              </div>
+              <div>
+                <label for="JavaScriptQ16">JavaScript 🚀</label>
+                <input type="radio" name="Q16" id="JavaScriptQ16" />
+              </div>
+            </div>
+          </section>
+        </div>
+        <div><input type="submit" value="valider" /></div>
       </form>
-      <section id="result">result</section>
+      <aside id="result">result</aside>
     </main>
     <script src="./script/script.js"></script>
   </body>
