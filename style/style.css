@@ -101,6 +101,7 @@ aside#result-message {
   margin: 50px 0;
   color: #fff;
   font-weight: bold;
+  text-align: center;
 }
 
 @media all and (max-width: 425px) {
